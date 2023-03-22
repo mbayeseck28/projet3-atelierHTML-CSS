@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+header{
+    display: flex;
+    background-color: orange;
+    padding: 15px 0;
+}
+.principal{
+    display: flex;
+    flex-direction: column;
+}
+header h1{
+    color: white;
+    margin: auto;
+    text-align: center;
+}
+/* _____________________ */
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: gainsboro;
+    gap: 10px;
+    padding: 10px;
+}
+.one{
+    display: flex;
+    background-color: #fff;
+    width: 25%;
+    border: 2px solid black;
+    padding: 15px 30px;
+}
+.one h3{
+    color: orange;
+    margin: auto;
+}
+/* _____________________________ */
+.centre{
+    display: flex;
+    justify-content: space-between;
+    background-color: gray;
+    gap: 10px;
+    padding: 10px;
+}
+.two{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    background-color: #fff;
+    padding: 15px;
+}
+img{
+    width: 100%;
+    height: 300px;
+    margin: auto;
+}
+.two p{
+    margin-bottom: 60px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+    background-color: aqua;
+    text-align: center;
+    font-weight: bold;
+    border: 2px solid black;
+}
+/* ______________________________ */
+footer{
+    display: flex;
+    background-color: orange;
+    padding: 15px;
+}
+footer p{
+    color: white;
+        margin: auto;
+}
+
+/* ___________________________ */
+@media screen and (max-width: 750px) {
+   
+   .centre{
+        flex-direction: column;    
+    }
+    nav{
+        order: 2;
+    }
+    nav{
+
+        gap: 1%;
+        padding: 1%;
+    }
+    .one{
+        border: 1px solid black;
+        padding: 2%;
+    }
+    
+   
+
+}
